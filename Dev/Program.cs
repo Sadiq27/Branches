@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Branch: Development");
+            Console.WriteLine($"Branch: {Console.ReadLine()}");
         }
     }
 }
